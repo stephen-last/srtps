@@ -1,0 +1,36 @@
+{
+  "name": "srtps",
+  "version": "0.1.0",
+  "description": "Convert SVG `rects` to a single path string.",
+  "main": "./dist/srtps.js",
+  "author": "Stephen Last <stephen.last@gmail.com>",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "contributors": [
+    {
+      "name": "Stephen Last",
+      "email": "stephen.last@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephen-last/srtps.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stephen-last/srtps/issues"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.14.0",
+    "bardcode": "^1.0.0",
+    "grunt": "^1.0.1",
+    "grunt-babel": "^6.0.0",
+    "load-grunt-tasks": "^3.5.2",
+    "pdfkit": "^0.8.0"
+  },
+  "dependencies": {
+    "xmldom": "^0.1.22"
+  }
+}
