@@ -25,7 +25,6 @@ function svgPath (str, h) {
     quietZoneSize: 0  // number of moduleWidths in quiet zone on either side. defaults to 10.
   }
   var svg = bardcode.drawBarcode('svg', str, options)
-  console.log('svg ====', svg)
   var path = srtps.rectsToPath(svg)
   return path
 }
