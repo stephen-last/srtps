@@ -1,7 +1,7 @@
 {
   "name": "srtps",
   "version": "0.1.0",
-  "description": "Convert SVG `rects` to a single path string.",
+  "description": "Convert SVG rects to a single path string.",
   "main": "./dist/srtps.js",
   "author": "Stephen Last <stephen.last@gmail.com>",
   "scripts": {
