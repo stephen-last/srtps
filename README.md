@@ -9,7 +9,7 @@ I needed to generate PDF documents for printing onto labels media. Some of the l
 
 ## API
 
-```
+```javascript
 import srtps from './dist/srtps'
 const svg = `<svg><rect width='4' height='28' x='33.000' y='0' /></svg>`
 const path = srtps.rectsToPath(svg)
