@@ -88,3 +88,6 @@ function rectsToPath(svgString) {
   var rects = svg.getElementsByTagName('rect');
   return getRectPaths(rects);
 }
+
+// commonJS
+module.exports = rectsToPath;

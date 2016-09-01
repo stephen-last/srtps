@@ -76,3 +76,6 @@ export function rectsToPath (svgString) {
   const rects = svg.getElementsByTagName('rect')
   return getRectPaths(rects)
 }
+
+// commonJS
+module.exports = rectsToPath
