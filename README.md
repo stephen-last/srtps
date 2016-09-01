@@ -23,9 +23,11 @@ Only one dependency: [xmldom](https://github.com/jindw/xmldom).
 
 ```javascript
 import srtps from 'srtps'
+
 const svg = `<svg><rect width='4' height='28' x='10' y='10' /></svg>`
 const path = srtps.rectsToPath(svg)
-console.log('path =', path)
+
+console.log(path) // M 10.000 10.000  L 14.000 10.000  L 14.000 38.000  L 10.000 38.000  Z
 ```
 
 ### With Bardcode & PDFKit
