@@ -3,6 +3,10 @@
 
 Convert SVG `rects` to a single path string.
 
+[![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![Version](https://img.shields.io/npm/v/srtps.svg)](https://www.npmjs.com/package/srtps)
+[![Downloads](https://img.shields.io/npm/dt/srtps.svg)](https://www.npmjs.com/package/srtps)
+
 ## Motivation
 
 I needed to generate PDF documents for printing onto labels media. Some of the labels need barcodes, and I wanted everything to be vector, no bitmaps. I decided to use [PDF Kit](http://pdfkit.org/docs/vector.html#svg_paths) which can use SVG path strings to draw vector shapes. So I needed a way to generate an SVG barcode and get an SVG path string to feed to `.path()`.
