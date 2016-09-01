@@ -1,6 +1,6 @@
 {
   "name": "srtps",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "SVG rects to path string (srtps).",
   "main": "./dist/srtps.js",
   "author": "Stephen Last <stephen.last@gmail.com>",
