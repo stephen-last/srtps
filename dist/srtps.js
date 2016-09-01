@@ -89,5 +89,4 @@ function rectsToPath(svgString) {
   return getRectPaths(rects);
 }
 
-// commonJS
-module.exports = rectsToPath;
+exports.default = { rectsToPath: rectsToPath };
