@@ -68,7 +68,7 @@ function getRectPaths (rects) {
 }
 
 /**
- * rects converted to string paths (exported/public)
+ * rects converted to string paths (public)
  */
 export function rectsToPath (svgString) {
   const doc = new dom.DOMParser().parseFromString(svgString, 'text/xml')

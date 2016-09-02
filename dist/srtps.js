@@ -80,7 +80,7 @@ function getRectPaths(rects) {
 }
 
 /**
- * rects converted to string paths (exported/public)
+ * rects converted to string paths (public)
  */
 function rectsToPath(svgString) {
   var doc = new _xmldom2.default.DOMParser().parseFromString(svgString, 'text/xml');

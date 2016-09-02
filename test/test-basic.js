@@ -1,5 +1,5 @@
 
-var srtps = require('./dist/srtps')
+var srtps = require('../dist/srtps')
 
 var svg = '<svg><rect width=\'4\' height=\'28\' x=\'10\' y=\'10\' /></svg>'
 var path = srtps.rectsToPath(svg)
